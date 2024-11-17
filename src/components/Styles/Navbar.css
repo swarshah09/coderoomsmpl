@@ -1,0 +1,96 @@
+/* .title {
+    font-size: 28px;
+    font-weight: bold;
+    margin: 5px 100px 5px 20px;
+    color: #2ecc40
+} */
+
+.Navbar {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    height: 60px;
+    width: 100%;
+    text-align: center;
+    color: #2ecc40;
+    background-color: #1c1e29;
+    gap: 10px;
+}
+
+.leftDiv {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.rightDiv {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+
+.Navbar label {
+    margin-left: 80px;
+    font-weight: bold;
+}
+
+.Navbar input {
+    accent-color: #fff;
+}
+
+#no {
+    height: 34px;
+    width: 120px;
+    font-size: 16px;
+    color: black;
+    /* border: 1px solid #2ecc40; */
+    border-radius: 15px;
+    background-color: white;
+}
+
+#no:focus {
+    outline: none;
+}
+
+.css-b62m3t-container {
+    width: 170px;
+    /* color: #2ecc40; */
+    background-color: #eeeeee;
+}
+
+.css-13cymwt-control {
+    background-color: #eeeeee !important;
+    /* border: 2px solid #2ecc40 !important; */
+}
+
+/* .css-1jqq78o-placeholder {
+    color: #2ecc40 !important
+} */
+
+/* Media queries for tablet */
+@media only screen and (max-width: 1024px) {
+    .title {
+      font-size: 24px;
+      margin: 5px 50px 5px 10px;
+    }
+  
+    .Navbar label {
+      margin-left: 20px;
+    }
+  }
+  
+  /* Media queries for phone */
+  @media only screen and (max-width: 600px) {
+    .title {
+      font-size: 20px;
+      margin: 5px 20px 5px 10px;
+    }
+  
+    .Navbar label {
+      margin-left: 20px;
+    }
+  
+    .Navbar input {
+      margin-left: 20px;
+    }
+  }
